@@ -21,6 +21,19 @@ def main():
                 i += 1
             inicio += 1
             print("\n")
+    else:
+        while inicio >= fim:
+
+            i = 1
+
+            print("Tabuada do", inicio)
+
+            while i <= 10:
+                print(inicio, "X", i, " =",inicio * i)
+                i += 1
+            
+            inicio -= 1
+            print("\n")
 
 
 
